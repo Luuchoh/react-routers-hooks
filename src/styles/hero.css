@@ -1,0 +1,40 @@
+
+#container-heroes{
+    background: #8cb4ff61;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+input{
+    font-size: 1.2rem;
+    width:  100%;
+}
+  
+.card {
+    box-sizing: content-box;
+    border: 3px solid #abababab;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 9.5%;
+    overflow: hidden;
+    padding: 20px;
+    width: 15rem;
+    border-radius: 20px;
+    display: inline-flex;
+    height: 370px;
+}
+  .card p{
+    padding: 5px;
+    text-align: center;
+    line-height: 15px;
+  }
+  
+  .card .card-img-top{
+    max-height: 200px;
+    max-width: 400px;
+  }

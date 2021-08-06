@@ -1,0 +1,63 @@
+
+#content-contacto {
+    margin-top: -70px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    height: 100%;
+    background: #8cb4ff61;
+}
+
+#contacto {
+    background: #292b2de8;
+    color: white;
+    width: 80%;
+    border: 4px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding-bottom: 90px;
+    padding-top: 65px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.mb-3 input{
+    padding: 10px;
+    border-radius: 0px;
+}
+
+.btn.btn-primary {
+    background-color: #288ae6ed!important;
+    color: white!important;
+    padding: 10px!important;
+    margin-top: 30px;
+    border: 0px!important;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: #226BAF!important;
+}
+.contacto h1{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.005em;
+    color: #FFFFFE;
+}
+.link:hover{    
+    text-decoration: none;
+}
+
+@media (min-width: 728px){
+    #contacto{
+        width:50%
+    }
+}
+
+@media (min-width: 1028px){
+    #contacto{
+        width:30%
+    }
+}
